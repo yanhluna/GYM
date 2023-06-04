@@ -16,7 +16,7 @@ CREATE TABLE docentes (
   especialidad VARCHAR(50) NOT NULL,
   grado VARCHAR (50) NOT NULL,
   FOREIGN KEY (id_usuario) REFERENCES usuarios(id_usuario)
-);
+)AUTO_INCREMENT = 31;
 
 
 CREATE TABLE alumnos (
